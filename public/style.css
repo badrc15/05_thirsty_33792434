@@ -1,0 +1,31 @@
+body {
+  background-color: black;
+  color: red;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, p, label {
+  color: red;
+}
+
+input[type="text"],
+input[type="email"] {
+  background-color: #222;
+  color: red;
+  border: 1px solid red;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: red;
+  color: black;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: darkred;
+}
